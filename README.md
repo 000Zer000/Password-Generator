@@ -74,7 +74,7 @@ from a list of characters provided by the `string` module (A-Za-z0-9).
 With every request for generation, It tries to access `SystemRandom`. A python class which allows 
 closer-to-reality random, which is not available on every platform, So if it was not available, We will 
 fallback to python's pusedo-random module (`random`) to generate the random password, The password generation process is pretty easy, using either `random.choice` or `random.SystemRandom.choice`, we choose a single character
-from the list provided by string, depending on the method of generation (The second one by my srcipts), 
+from the list provided by string, depending on the method of generation (The second one by my scripts), 
 Actions after it differ,
 
 **First method**:
