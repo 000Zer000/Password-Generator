@@ -14,8 +14,8 @@ def main():
         init = lambda wrap: None
     finally:
         init(wrap=True)
-    print("\x1b[34mPassword Generator\x1b[39m v\x1b[31m{}\x1b[39m, Written by 000Zer000".format(version))
-    print("See the original repo (https://github.com/000Zer000/Password-Generator) for updates and more info")
+    print("\x1b[34mPassword Generator\x1b[39m v\x1b[31m{}\x1b[39m, Written by TheOddZer0".format(version))
+    print("See the original repo (https://github.com/TheOddZer0/Password-Generator) for updates and more info")
     try:
         length = int(sys.argv[1])
     except (ValueError, IndexError):
