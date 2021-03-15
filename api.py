@@ -1,13 +1,7 @@
 import random 
 import string
 import warnings
-
-__author__ = "000Zer000"
-__version__ = "1.0.0"
-__email__ = "000Zer000@protonmail.com"
-__stage__ = "Production"
-
-version = __version__
+version = "1.0.0"
 
 class PasswordGenerator:
     def __init__(self, avoid: str = None, fixed_length: bool = True, length: int = 13):
